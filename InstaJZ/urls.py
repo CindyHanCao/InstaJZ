@@ -20,4 +20,5 @@ from django.conf.urls import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('insta/', include('Insta.urls')),
+    # path('', include('Insta.urls')),
 ]
